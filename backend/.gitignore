@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Env files
+.env
+backend/.env
+.env.*
+**/.env
+
+# Node
+node_modules/
+.pnpm/
+dist/
+
+# OS
+.DS_Store

@@ -1,0 +1,19 @@
+# secrets
+**/.env
+**/.env.*
+**/*secret*
+**/*key*
+
+# python
+**/.venv/
+**/__pycache__/
+**/*.pyc
+
+# node
+**/node_modules/
+**/.pnpm-store/
+**/dist/
+**/.vite/
+
+# local data
+**/*.db

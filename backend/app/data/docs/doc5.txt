@@ -1,0 +1,28 @@
+The system is intentionally modular.
+
+Backend:
+- FastAPI for request handling
+- Agent orchestration layer
+- Tool registry
+- RAG module
+- SQLite for persistence
+
+Frontend:
+- React + TypeScript
+- Session-based chat UI
+- Simple API integration
+
+Separation of concerns:
+- agent.py controls reasoning
+- tools.py defines capabilities
+- rag.py handles retrieval
+- db.py manages persistence
+
+To scale this:
+- Replace SQLite with Postgres
+- Add background workers for tool execution
+- Add streaming responses
+- Add authentication per user
+
+The architecture prioritizes clarity over complexity.
+This is intentional.

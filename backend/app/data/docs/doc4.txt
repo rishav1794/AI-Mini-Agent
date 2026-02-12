@@ -1,0 +1,18 @@
+Retrieval-Augmented Generation (RAG) improves factual grounding.
+
+The workflow in this demo:
+
+1. Load local documents.
+2. Chunk them.
+3. Embed the chunks.
+4. Embed the user query.
+5. Retrieve top-k similar chunks.
+6. Inject retrieved context into the system prompt.
+
+This allows the agent to answer questions based on project-specific knowledge,
+not just its pretraining.
+
+RAG is a context injection strategy.
+It is not a database.
+It is not a search engine.
+It is a relevance filter for prompt construction.

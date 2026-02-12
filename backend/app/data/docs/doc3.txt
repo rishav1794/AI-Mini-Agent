@@ -1,0 +1,22 @@
+Tool calling introduces determinism into an otherwise probabilistic system.
+
+Instead of trusting the model to "figure it out" in text,
+we give it structured tools like:
+
+- calculate(expression)
+- create_todo(task)
+- list_todos()
+- search_docs(query)
+
+The model decides whether to call a tool.
+If it does, the backend executes the tool.
+The result is fed back into the model.
+
+This pattern:
+- Improves reliability
+- Reduces hallucination
+- Makes outputs auditable
+- Enables real-world actions
+
+LLMs generate language.
+Tools create capability.

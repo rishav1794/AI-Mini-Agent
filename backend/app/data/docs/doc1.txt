@@ -1,0 +1,19 @@
+Invictus AI builds personalized AI agents.
+
+An AI agent is not just a chatbot. A chatbot responds to input. An agent makes decisions.
+
+In this system, an agent has:
+- Conversational memory
+- Access to structured tools
+- A reasoning loop
+- External knowledge retrieval
+
+The difference is control.
+
+Instead of blindly generating text, the agent can:
+- Decide to call a function
+- Retrieve relevant documents
+- Persist state
+- Respond based on structured outputs
+
+An AI agent is essentially a small decision-making system powered by an LLM.

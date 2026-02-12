@@ -1,0 +1,17 @@
+Short-term memory is critical for conversational continuity.
+
+This demo stores the last N messages per session in a database.
+Those messages are injected back into the prompt for context.
+
+Why only short-term memory?
+Because:
+- Long histories increase token cost.
+- Irrelevant context hurts performance.
+- Most conversations depend on recent turns.
+
+In production, memory would likely be:
+- Summarized periodically
+- Indexed semantically
+- Stored per user identity
+
+Memory is not storage. It is context management.
