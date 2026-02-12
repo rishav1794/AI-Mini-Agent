@@ -1,12 +1,5 @@
 # AI Mini Agent
 
-## Screenshots
-<img width="444" height="693" alt="Screenshot 2026-02-12 at 11 55 31 AM" src="https://github.com/user-attachments/assets/f616be5c-93a6-432b-9c46-0b3fecb8813d" />
-
-<img width="430" height="683" alt="Screenshot 2026-02-12 at 11 58 33 AM" src="https://github.com/user-attachments/assets/c1856788-b4f0-454e-be34-42b3f6b28860" />
-
-<img width="863" height="678" alt="Screenshot 2026-02-12 at 11 59 41 AM" src="https://github.com/user-attachments/assets/cb85a813-e197-4b23-b091-a910bb2ab9c9" />
-
 A minimal full-stack AI agent demonstrating:
 
 - Tool calling
@@ -17,6 +10,13 @@ A minimal full-stack AI agent demonstrating:
 
 This is not a generic chatbot.  
 It is a structured agent workflow.
+
+## Screenshots
+<img width="444" height="693" alt="Screenshot 2026-02-12 at 11 55 31 AM" src="https://github.com/user-attachments/assets/f616be5c-93a6-432b-9c46-0b3fecb8813d" />
+
+<img width="430" height="683" alt="Screenshot 2026-02-12 at 11 58 33 AM" src="https://github.com/user-attachments/assets/c1856788-b4f0-454e-be34-42b3f6b28860" />
+
+<img width="863" height="678" alt="Screenshot 2026-02-12 at 11 59 41 AM" src="https://github.com/user-attachments/assets/cb85a813-e197-4b23-b091-a910bb2ab9c9" />
 
 ---
 
@@ -203,3 +203,6 @@ cd frontend
 pnpm install
 pnpm dev
 ```
+
+## Architecture
+<img width="1062" height="1114" alt="Screenshot 2026-02-12 at 12 35 04 PM" src="https://github.com/user-attachments/assets/3ba2d14b-7c61-49fa-bf43-0cff7561417a" />
