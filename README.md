@@ -190,3 +190,9 @@ pip install -r requirements.txt
 ```bash
 uvicorn app.main:app --reload --port 8000
 ```
+## Frontend
+```bash
+cd frontend
+pnpm install
+pnpm dev
+```
